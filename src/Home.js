@@ -39,7 +39,8 @@ const Home = () => {
         <img src={hero} height="300px" alt="" />
       </div>
       <div className="box-secondary">
-        {/* 1) TextField */}
+     <form>
+       {/* 1) TextField */}
         <TextField
           placeholder="Enter Your First Name"
           label="First Name"
@@ -138,9 +139,10 @@ const Home = () => {
           label="I aggree all terms and conditions"
         />
 
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="primary" type="submit">
           create new account
         </Button>
+    </form>
       </div>
     </div>
   );
