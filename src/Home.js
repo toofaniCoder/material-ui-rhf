@@ -118,7 +118,7 @@ const Home = () => {
           </InputLabel>
 
           <Select>
-            <MenuItem value="">Choose your state</MenuItem>
+            <MenuItem value="">Choose your course</MenuItem>
             <MenuItem value="Web Development">Web Development</MenuItem>
             <MenuItem value="App Development">App Development</MenuItem>
             <MenuItem value="UI/UX">UI/UX</MenuItem>
