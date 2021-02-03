@@ -1,0 +1,25 @@
+.box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh;
+}
+.box-secondary {
+  padding: 30px;
+  overflow: auto;
+}
+
+.box-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+  .box-primary {
+    display: none;
+  }
+  .box {
+    grid-template-columns: 100%;
+  }
+}
